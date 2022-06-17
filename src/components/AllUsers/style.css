@@ -1,0 +1,89 @@
+.Center-Container_Users {
+  position: absolute;
+  width: 82%;
+  top: 0;
+  left: 15vw;
+  height:70vh;
+}
+.USERSTables{
+  width: 97.5%;
+  margin-top: 5vh;
+  height: fit-content;
+  padding: 20px;
+  position: absolute;
+  left: 4vh;
+  top: 22vh;
+  align-items: center;
+  justify-content: center;
+}
+/* .UsersInControlPanel{
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  margin-top:26vh ;
+} */
+
+
+/* .details-users_row{
+  display: flex;
+  margin-bottom: 8vh;
+  width: 100%;
+  margin-left: 3%;
+  font-weight: 700;
+  text-align: start;
+  justify-content: flex-start;
+} */
+
+/* .details-users_row .details-Users .table img{
+  width: 50px;
+  height: 40px;
+  border-radius: 100%;
+} */
+.USERSTables .table img{
+  width: 50px;
+  height: 40px;
+  border-radius: 100%;
+} 
+.clientsBar{
+display: flex;
+position: absolute;
+margin-top: 15vh;
+margin-left: 3%;
+width: 96.50%;
+font-size: 20px;
+font-weight: 600;
+height: 5vh;
+border-bottom: solid 1px lightsteelblue;
+}
+.details-Users{
+  display: flex;
+  width: 100%;  
+  font-weight: 400;
+  align-items: center;
+}
+.details-Users p{
+  width: 20%;
+}
+.All_users_Line{
+
+}
+.table{
+  width: 16.5%;
+}
+tr {
+  text-align: center;
+}
+
+td {
+  height: 15vh;
+  padding: 10px;
+}
+.eyeIcon{
+  cursor: pointer;
+  font-size: 23px;
+  color: #2563eb;
+  margin-bottom: -13px;
+
+  align-items: center;
+}

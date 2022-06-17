@@ -1,0 +1,369 @@
+.big_container {
+  width: 100%;
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+
+/* .sec_container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  padding: 10px;
+  gap: 50px;
+} */
+
+
+.popUpUserprofiler .cloud input {
+  display: none;
+}
+.popUpUserprofiler .cloud {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popUpUserprofiler .cloud .Test-A { 
+  font-size:24px ;
+  cursor: pointer;
+}
+
+.sec_container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  /* padding: 20px; */
+  justify-content: flex-start;
+}
+
+.inner_container {
+  display: flex;
+  width: 50%;
+  height: 50%;
+  flex-direction: column;
+  /* padding: 20px; */
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 10px;
+}
+
+.updateButton {
+  width: 50%;
+  background-color: rgb(51, 100, 156);
+  font-family: "Montserrat", sans-serif;
+  /* border: 2px solid #78788c; */
+  cursor: pointer;
+  transition: all 0.3s;
+  color: var(--btnsColor);
+  height: 40%;
+  padding: 5px;
+  font-weight: 600;
+  border: none;
+
+}
+
+
+
+
+
+.userProfileImg {
+  width: 70%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: flex-start; */
+}
+
+.userProfileImg img {
+  width: 80%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: fill;
+}
+
+.datails-Container_profile {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  align-items: center;
+  height: 45%;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  /* flex-direction: column; */
+  /* border-color: currentcolor currentcolor rgb(80, 87, 90); */
+  font-size: 18px;
+  color: black;
+  background-image: initial;
+  background-color: transparent;
+  border-style: none none solid;
+  margin: 0px 0px 15px;
+  width: 100%;
+  height: 100%;
+}
+
+.inLine {
+  display: flex;
+  /* flex-direction: column; */
+  /* border-color: currentcolor currentcolor rgb(80, 87, 90); */
+  font-size: 20px;
+  color: rgb(80, 87, 90);
+  background-image: initial;
+  background-color: transparent;
+  /* border-style: none none solid; */
+  /* margin: 0px 0px 20px; */
+  width: 78%;
+  height: 100%;
+  /* padding: 5px; */
+  /* gap: 10px; */
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.Di {
+  display: flex;
+  width: 30%;
+  justify-content: flex-start;
+  align-items: center;
+}
+.nameInfo {
+  color: black;
+  background-image: initial;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 20px;
+  display: flex;
+  margin-top: 5px;
+}
+.popUp1 {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f4ff;
+  border-radius: 10px;
+  border-color: unset;
+  /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.small-Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90%;
+  width: 80%;
+}
+.popUpUserprofiler {
+  border-color: currentcolor currentcolor rgb(80, 87, 90);
+  color: rgb(43, 41, 41);
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f4f4ff;
+  border-radius: 10px;
+  border-color: unset;
+}
+.firstName1 {
+  border-color: currentcolor currentcolor rgb(80, 87, 90);
+  color: rgb(43, 41, 41);
+  font-size: 18px;
+  background-image: initial;
+  background-color: transparent;
+  border-style: none none solid;
+  margin: 0px 0px 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+/* .UpdateProfileButton {
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #64647c;
+  background: 0;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 30%;
+  height: 20%;
+  font-size: 18px;
+  background-image: initial;
+  background-color: transparent;
+  border-style: none none solid;
+  margin: 0px 0px 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+} */
+
+.UpdateProfileButton {
+  width: 100%;
+  padding: 8px 12px;
+  margin: 8px 0 0;
+  font-family: "Montserrat", sans-serif;
+  /* border: 2px solid #78788c; */
+  cursor: pointer;
+  transition: all 0.3s;
+  /* margin-top: 20px; */
+  /* margin-bottom: 5px; */
+  height: 20%;
+  color: var(--btnsColor);
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.updateButton {
+  width: 80%;
+  background-color: lightblue;
+  font-family: "Montserrat", sans-serif;
+  /* border: 2px solid #78788c; */
+  cursor: pointer;
+  transition: all 0.3s;
+  color: black;
+  height: 50px;
+  padding: 5px;
+  font-weight: 600;
+}
+
+.deleteButton {
+  width: 80%;
+  background-color: #d0c5c5;
+  font-family: "Montserrat", sans-serif;
+  border: unset;
+  cursor: pointer;
+  transition: all 0.3s;
+  color: black;
+  height: 50px;
+  padding: 5px;
+  font-weight: 600;
+  outline-style: unset;
+}
+
+.cloud {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.cloud button {
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 30%;
+  height: 40%;
+}
+.cloud input {
+  cursor: pointer;
+  transition: all 0.3s;
+  width: 100%;
+  height: 40%;
+  margin-bottom: 10px;
+}
+
+.Header_Profile {
+  display: flex;
+  width: 100%;
+  height: 12vh;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--mainColor);
+  margin-top: 12vh;
+}
+
+.profileOrder {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  align-items: center;
+  height: 100%;
+}
+
+.Profile-Cont {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 0 20px;
+  align-items: center;
+}
+
+.BtnsProfileOrder {
+  display: flex;
+  gap: 5px;
+}
+
+/* .LeftContainer-Profile {
+  display: flex;
+  height: 88vh;
+  width: 100%;
+  align-items: flex-start;
+  padding: 20px;
+} */
+.LeftContainer-Profile {
+  display: flex;
+  margin-top: 12vh;
+  /* height: 88vh; */
+  width: 70%;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 85vh;
+  margin-top: 14vh;
+  box-shadow: rgb(50 50 93 / 25%) 0px 50px 100px -20px,
+    rgb(0 0 0 / 30%) 0px 30px 60px -30px,
+    rgb(10 37 64 / 35%) 0px -2px 6px 0px inset;
+}
+
+.Container-INFO {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  /* margin-left: 20vh; */
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+  /* border: 1px solid; */
+  height: 100%;
+}
+
+.ProfileBtns {
+  gap: 15px;
+  position: absolute;
+  /* height: 15%; */
+  display: flex;
+  right: 18%;
+  bottom: 58%;
+  width: 15%;
+  flex-direction: column;
+  /* align-self: auto; */
+}
+
+.LeftContainer-ProfileVisit {
+  display: flex;
+  height: 88vh;
+  width: 100%;
+  justify-content: center;
+}
+.B {
+  font-weight: 600;
+}

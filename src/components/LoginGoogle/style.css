@@ -1,0 +1,35 @@
+ .googleLogin{
+/* margin-top:2%; */
+  /* line-height: 50px;   */
+ 
+  /* display: inline-block; */
+  /* border: 1px solid #d5d5d5; */
+  /* color:  rgb(0 0 0 / 92%);; */
+  width: 100px;
+/* justify-content: center; */
+cursor: pointer;
+
+}
+.googleLogin span{
+  color:  rgb(0 0 0 / 92%);
+ width: 100%;
+  font-size: 15px;
+  text-transform: uppercase;
+  text-align: center;
+height: 50px;
+
+}
+.main{
+  width: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main button  {
+  background-color: red;
+  color: black;
+}
+
+
+

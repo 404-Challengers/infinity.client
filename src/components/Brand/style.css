@@ -1,0 +1,46 @@
+.Main-Container {
+  display: flex;
+  width: 100%;
+  height: 30vh;
+  padding: 15px;
+  flex-wrap: wrap;
+  overflow: scroll;
+}
+
+/* .Main-Container .Sub-Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+} */
+
+.Paragraph {
+  display: flex;
+  padding: 15px;
+  font-size: 23px;
+  height: 10vh;
+}
+
+.PhotoAndTitle {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  height: 100%;
+}
+
+.PhotoAndTitle .Image {
+  width: 100%;
+  height: 80%;
+}
+.PhotoAndTitle .Image img {
+  width: 80%;
+  height: 100%;
+  border-radius: 100%;
+  object-fit: cover;
+  border: 1px solid;
+}
+
+.Title-H {
+  height: 20%;
+  width: 100%;
+}

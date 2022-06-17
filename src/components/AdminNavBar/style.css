@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&display=swap");
+
+.Links-Admin1{
+    background-color: var(--mainColor);
+    height: 10vh;
+    width: 100%;
+  font-family: sans-serif;
+    display: flex;
+  
+  align-items: center;
+  z-index: 1;
+  justify-content: space-between;
+  padding: 15px;
+  position: fixed;
+}
+.Links-Admin1 a {
+    cursor: pointer;
+    margin-left: 12px;
+  }
+  .span {
+    margin-left:4%;
+    width: 100%;
+    display: flex;
+   
+  }
+  a:hover {
+    transition: .3s;
+   color: var(--btnsColor);
+  }
+  .LOGO1 {
+    display: flex;
+    align-items: center;
+    width: 25%;
+    /* justify-content: flex-start; */
+    padding-top: 10px;
+   margin-top: -20px;
+    top: 53px;
+  }
+  
+.Cont-Log {
+  display: flex;
+}
+.Infin1 {
+  font-size: 25px;
+  color: var(--BlackColor);
+}
+.Zone1 {
+  font-size: 14px;
+  color: var(--btnsColor);
+  position: absolute;
+  top: 35px;
+  left: 100px;
+}
+.LOGO1 .LOGOTEST1 {
+  font-size: 35px;
+  color: var(--btnsColor);
+  font-weight: 600;
+  /* text-shadow: 3px 4px 2px var(--subColor); */
+  font-family: "Cabin", sans-serif;
+  margin-top: 10px;
+}
+
+.LOGO1 .ICON1 {
+  margin-top: 5px;
+}
+
+.Cont-Log1 {
+  display: flex;
+  /* align-items: center; */
+}
+
+.Infin1 {
+  position: relative;
+  margin-left: 0px;
+}
+  /* .Links-Admin1 .LOGO1 .ICON1 svg {
+    margin-top: 2px;
+  } */
+  .LOGO1 .ICON1 svg {
+    font-size: 50px;
+  }
+
+  .homeCenter{
+    display: flex;
+    align-items: center;
+    width: 55%;
+    justify-content: end;
+    /* padding-top: 10px; */
+    gap: 20px;
+    position: relative;
+    cursor: pointer;
+  }
+  /* :hover{
+    background-color: rgb(236, 92, 92);
+    transition: 0.4s;
+  } */
+  .Login-LogoutAdmin{
+    display: flex;
+    gap: 10px;
+  }
+
+
+.Login-LogoutAdmin svg {
+  font-size: 24px;
+ padding-top: 5px;
+}

@@ -1,0 +1,74 @@
+.center{
+     background-image: initial;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-top: 12vh;
+}
+.login-Register-Menu{
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 26px;
+ list-style: none;
+ padding: 5px 11px;
+ margin-top: 45px;
+
+}
+.loginInRegister{
+  font-size: 35px  ;
+  font-family:sans-serif ;
+margin-right:15px ;
+color: black;
+cursor: pointer;
+}
+.login{
+  font-size: 35px  ;
+  font-family:sans-serif ;
+margin-right:15px ;
+color: rgb(210, 81, 73);
+cursor: pointer;
+}
+
+.emailInput{
+  border-color: currentcolor currentcolor rgb(80, 87, 90);
+  color: rgb(166, 159, 147);
+  background-image: initial;
+  background-color: transparent;
+  border-style: none none solid;
+  margin:  0px 0px 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.passwordInput{
+  border-color: currentcolor currentcolor rgb(80, 87, 90);
+  color: rgb(166, 159, 147);
+  background-image: initial;
+  background-color: transparent;
+  border-style: none none solid;
+  margin:  0px 0px 20px;
+  width: 400px;
+  height: 40px;
+  margin-bottom: 20px;
+  padding: 5px;
+}
+.loginButton{
+  border-color: rgb(60, 65, 67);
+  color: rgb(22 21 20);
+  border: 1px solid #d5d5d5;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 150px;
+  cursor: pointer;
+  
+}
+.loginButton:hover{
+  background-color: rgb(236, 92, 92);
+  transition: 0.4s;
+}

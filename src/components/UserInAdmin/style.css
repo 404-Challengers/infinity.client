@@ -1,0 +1,96 @@
+.Center-Container-OneUserInAdmin {
+  position: absolute;
+  width: 82%;
+  top: 0;
+  left: 15vw;
+  height: 70vh;
+
+}
+.UsersInControlPanelMain {
+  /* background-color: aliceblue; */
+  display: flex;
+  justify-content: center;
+  width:100%;
+}
+.Btns-InUser {
+  display: flex;
+  justify-content: space-between;
+  height: 10%;
+  width: 81.5%;
+  color: var(--btnsColor);
+  /* background-color: rgb(105, 81, 81); */
+  padding: 20px;
+  font-weight: 600;
+  margin-top:6%;
+  cursor: pointer;
+  border-bottom: #78788c solid;
+  font-weight: 800;
+  cursor: pointer;
+}
+.user_Line {
+  display: flex;
+  flex-direction: column;
+  /* background-color: blue; */
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  
+}
+.user_info {
+  display: flex;
+  width: 80%;
+  height: 40%;
+  flex-direction: column;
+  padding: 20px;
+ 
+}
+.userProfile{
+  width: 70%;
+  height: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.infoWritten{
+  display: flex;
+  flex-direction: column;
+  font-size: 18px;
+  justify-content: center;
+  align-items: flex-start;
+}
+.headerUser{
+  justify-content: flex-start;
+  align-items: flex-start;
+  font-size: 20px;
+  font-weight: 600;
+}
+.buttonsForOneUser{
+  display: flex;
+  gap:40%;
+ width: 100%;
+ cursor: pointer;
+ margin-top: 2%;
+  /* position: absolute;
+  right: 56%;  */
+}
+.deleteUserBtnAdmin{
+display: flex;
+  align-items: flex-end;
+  /* margin-left: 100%; */
+  font-size: 20px;
+  cursor: pointer;
+  color: var(--btnsColor);
+  border: 2px solid #78788c;
+}
+.userOrderButonInAdmin{
+  font-family: "Montserrat", sans-serif;
+  border: 2px solid #78788c;
+  cursor: pointer;
+  transition: all 0.3s;
+  height: 20%;
+  color: var(--btnsColor);
+  font-size: 16px;
+  font-weight: 600;
+}

@@ -1,0 +1,411 @@
+/* Style the header with a grey background and some padding */
+/* @import url("https://fonts.googleapis.com/css2?family=Cabin:ital@0;1&display=swap"); */
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin&display=swap");
+
+.NavBar {
+  height: 12vh;
+  width: 100%;
+  background-color: var(--NavColor);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  font-size: 16px;
+  /* font-weight: 600; */
+  color: var(--subColor);
+  position: fixed;
+  z-index: 1;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.Infin {
+  font-size: 25px;
+  color: var(--BlackColor);
+}
+.Zone {
+  font-size: 14px;
+  color: var(--btnsColor);
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  
+}
+
+.SEARCH-Container input {
+  padding: 10px;
+  border-color: none;
+  border: none;
+  border-radius: 15px;
+  border: -0.7px solid;
+  border: 0.1px solid #dcd9d9;
+  outline-color: #dcd9d9;
+  font-size: 16px;
+  color: var(--BlackColor);
+  outline-style: none;
+  padding-left: 15px;
+}
+
+.resultInSearch {
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+  background-color: #ffffff;
+  justify-content: center;
+  /* align-items: center; */
+  width: 150%;
+  /* left: -17%; */
+  right: -25%;
+  gap: 10px;
+  padding: 10px;
+  border: 0.5px solid var(--mainColor);
+  border-radius: 15px;
+  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+}
+
+.title_photo_search {
+  /* padding: 5px; */
+  width: 100%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.title_photo_search:hover {
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.title_photo_search:hover .Title-search p {
+  color: var(--btnsColor);
+  transition: 0.3s;
+}
+
+.image-search {
+  width: 30%;
+  height: 100%;
+}
+
+.image-search img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.Title-search {
+  display: flex;
+  width: 60%;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.SEARCH-Container {
+  position: relative;
+}
+.SEARCH-Container .SEARCH-ICON {
+  position: absolute;
+  top: 30%;
+  right: 5%;
+}
+
+.SEARCH-Container .SEARCH-ICON svg {
+  font-size: 20px;
+}
+
+.LOGO {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  justify-content: flex-start;
+  padding-top: 10px;
+}
+
+.Cont-Log {
+  display: flex;
+}
+
+.LOGO .LOGOTEST {
+  font-size: 35px;
+  color: var(--btnsColor);
+  font-weight: 600;
+  /* text-shadow: 3px 4px 2px var(--subColor); */
+  font-family: "Cabin", sans-serif;
+  margin-top: 10px;
+}
+
+.LOGO .ICON {
+  margin-top: 5px;
+}
+
+.Cont-Log {
+  display: flex;
+  /* align-items: center; */
+}
+
+.Infin {
+  position: relative;
+  margin-left: 0px;
+}
+
+.LOGO {
+  display: flex;
+  align-items: center;
+  width: 25%;
+  /* justify-content: flex-start; */
+  padding-top: 10px;
+
+  top: 53px;
+}
+
+.LOGO .ICON svg {
+  font-size: 50px;
+}
+
+.Infin {
+  position: relative;
+  margin-left: 0px;
+}
+
+.CENTER-NAV {
+  display: flex;
+  align-items: center;
+  width: 55%;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  position: relative;
+  /* DropDown */
+}
+
+.RIGT-NAV span:hover,
+.CENTER-NAV span:hover {
+  color: var(--btnsColor);
+  transition: 0.3s;
+}
+
+.RIGT-NAV {
+  display: flex;
+  width: 20%;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10%;
+  padding-top: 10px;
+}
+
+.NavBar span {
+  cursor: pointer;
+}
+
+.CART-NAV {
+  position: relative;
+}
+.CART-NAV svg {
+  transform: rotateY(180deg);
+  font-size: 22px;
+}
+
+.AdminIcon svg { 
+  font-size: 22px;
+}
+.Login-Logout svg {
+  font-size: 22px;
+}
+
+.WISH-NAV {
+  position: relative;
+}
+.WISH-NAV svg {
+  /* transform: rotateY(180deg); */
+  font-size: 22px;
+}
+
+.CART-NAV .Number,
+.WISH-NAV .Number {
+  background-color: var(--btnsColor);
+  width: 20px;
+  height: 21px;
+  border-radius: 100%;
+  color: white;
+  position: absolute;
+  top: 3%;
+  right: -45%;
+  top: -65%;
+  text-align: center;
+  font-size: 15px;
+}
+
+.Catg-IconCont {
+  display: flex;
+  padding-top: 2px;
+}
+
+.Catg-IconCont:hover {
+  color: var(--btnsColor);
+}
+
+.DropIcon {
+  margin-top: 4px;
+}
+.Catg-IconCont .DropIcon span svg {
+  font-size: 17px;
+}
+
+.DropDev {
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  background-color: #f4f4ff;
+  border-color: unset;
+  z-index: 1;
+  box-shadow: rgb(0 0 0 / 25%) 0px 54px 55px, rgb(0 0 0 / 12%) 0px -12px 30px,
+    rgb(0 0 0 / 12%) 0px 4px 6px, rgb(0 0 0 / 17%) 0px 12px 13px,
+    rgb(0 0 0 / 9%) 0px -3px 5px;
+  top: 80%;
+  display: none;
+  transition: 0.4s ease-in-out;
+  right: 39%;
+}
+.Catg-IconCont:hover ~ .DropDev {
+  display: flex;
+}
+.DropDev:hover {
+  display: flex;
+}
+.DropDev:hover ~ .Catg-IconCont {
+  color: var(--btnsColor);
+}
+
+.CartPopUp {
+  width: 37%;
+  height: 100vh;
+  align-items: center;
+  position: absolute;
+  right: 0;
+  background-color: #f4f4ff;
+  border-color: unset;
+  outline: unset;
+  box-shadow: var(--mainColor) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  padding: 20px;
+  overflow: scroll;
+}
+
+.CONTAINER_CARTPOPUP {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* height: 100%; */
+}
+
+.CartPopUp .sideCart {
+  display: flex;
+  width: 100%;
+  height: 30%;
+  flex-direction: row;
+  border-bottom: 0.5px solid rgb(211, 198, 198);
+  gap: 5px;
+}
+
+.sideCart .sideCartImg {
+  display: flex;
+  width: 25%;
+  height: 75%;
+  background-color: transparent;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.sideCart .sideCartImg img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+
+.sideCart .Title_Price {
+  display: flex;
+  width: 70%;
+  justify-content: flex-start;
+  height: 100%;
+  align-items: flex-start;
+  margin-top: 5%;
+  flex-direction: column;
+  gap: 5px;
+}
+.Total {
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  /* margin-top: 10px; */
+}
+.Total .T_ {
+  font-size: 30px;
+}
+
+.Total .Num {
+  color: var(--btnsColor);
+  font-size: 15px;
+}
+
+.Btn-SideCart {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+.Btn-SideCart span {
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.Quan {
+  color: var(--btnsColor);
+}
+
+.View-C {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.View-C button {
+  width: 100%;
+  height: 60px;
+  background-color: var(--NavColor);
+  color: var(--BlackColor);
+  font-size: 20px;
+  border: 0.2px solid;
+  outline-style: none;
+  cursor: pointer;
+}
+
+.View-C .Ch {
+  background-color: var(--BlackColor);
+  color: var(--mainColor);
+}
+
+.View-C .Ch:hover {
+  transition: 0.3s;
+  background-color: var(--btnsColor);
+}
+
+.View-C .Vi:hover {
+  transition: 0.3s;
+  background-color: var(--btnsColor);
+  color: var(--NavColor);
+}
